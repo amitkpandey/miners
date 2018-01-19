@@ -52,11 +52,6 @@ The file should be save at this point! You should be ready to mine!
 
 This will start mining.
 
-This is obviously using xmrig, but I have modified the source code slightly. Here is how:
-
-* I hardcoded the donations to `0` (because I was salty that they hardcoded a minimum of `1`)
-* I corrected the output as it always showed a hash rate of `n/a`
-
 With this miner you can use the `xmrig-proxy`.
 The `xmrig-proxy` is particularly useful here because most respectable pools have difficulties that
 are too high for most android devices to manage, and thus they time out. Using `xmrig-proxy` will take
